@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Usuario</title>
+</head>
+<body>
+    <form action="insertar.php" method="post">
+        <h1>FORMULARIO DE REGISTRO</h1><br>
+        <input type="text" name="nombre" placeholder="Ingresa su nombre..." required>
+        <input type="text" name="ap_pat" placeholder="Ingrese su apellido paterno" required>
+        <input type="text" name="ap_mat" placeholder="Ingrese su apellido materno" required>
+        <input type="text" name="direccion" placeholder="Ingrese su dirección" required>
+        <input type="email" name="mail" placeholder="Ingrese su email" required>
+        <input type="number" name="telefono" placeholder="Ingrese su teléfono" required>
+        <input type="hidden" name="estado" value="A" readonly>
+        <input type="text" name="usuario" placeholder="Ingrese su usuario" required>
+        <input type="password" name="clave" placeholder="Ingrese su contraseña" required>
+       
+        <div class="botones">
+            <input class="a" type="submit" value="Registrar">
+            <input class="a" type="reset" value="Cancelar">
+        </div>
+    </form>
+</body>
+</html>
